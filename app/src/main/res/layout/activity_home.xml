@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="功能列表" />
+    <!--把焦点放在控件上才滚动
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+    -->
+    <!--使用自定义控件，定义可获取焦点的TextView-->
+    <com.panhongyuan.mobilesafe.view.FocusTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="手机卫士，极客开发者主页：jkdev.cn，微信订阅号：“极客开发者up”"
+        android:textColor="#000" />
+    <!--numColumns属性指定列的数量-->
+    <!-- android:verticalSpacing="10dp"设置竖直方向间距为10dp-->
+    <GridView
+        android:id="@+id/gv_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="3"
+        android:verticalSpacing="10dp">
+
+    </GridView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="免责声明：源代码由“极客开发者”编写，并开源共享源代码，模拟手机卫士，如有雷同，纯属巧合！"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:padding="20dp"
+        android:text="开源地址:https://github.com/kotlinup/MobileSafe" />
+</LinearLayout>

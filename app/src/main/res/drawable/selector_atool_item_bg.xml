@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--选中后深绿色图片-->
+    <item android:drawable="@drawable/btn_select_pressed_corners_bg" android:state_pressed="true" />
+    <!--默认的浅绿色图片-->
+    <item android:drawable="@drawable/btn_select_nomal_corners_bg" />
+</selector>

@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="功能列表"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    -->
+    <style name="TitleStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">#0f0</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_next_btn_bg"
+            android:drawableRight="@drawable/next"
+            android:text="下一页" />
+    -->
+    <style name="nextBtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/selector_next_btn_bg</item>
+        <item name="android:drawableRight">@drawable/next</item>
+        <item name="android:text">下一页</item>
+    </style>
+
+    <style name="preBtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:background">@drawable/selector_next_btn_bg</item>
+        <item name="android:drawableLeft">@drawable/previous</item>
+        <item name="android:text">上一页</item>
+    </style>
+</resources>

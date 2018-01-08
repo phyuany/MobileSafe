@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#accc">
+    <!--在Manifest文件中设置透明，再在布局文件设置android:background="#ccc"属性，设置背景-->
+    <!--ImageView在相对布局中，所以其所在位置的规则由相对布局提供-->
+    <ImageView
+        android:id="@+id/iv_drag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drag" />
+
+    <Button
+        android:id="@+id/bt_top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_atool_item_bg"
+        android:gravity="center"
+        android:text="按住提示框拖拽到任意位置"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bt_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/selector_atool_item_bg"
+        android:gravity="center"
+        android:text="按住提示框拖拽到任意位置"
+        android:visibility="visible" />
+
+</RelativeLayout>

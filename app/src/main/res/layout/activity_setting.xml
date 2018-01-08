@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="设置中心" />
+    <!--使用自定义属性，定义自己的命名空间mobile键，值为res资源路径下自己的工程包-->
+    <com.panhongyuan.mobilesafe.view.SettingItemView xmlns:mobile="http://schemas.android.com/apk/res/com.panhongyuan.mobilesafe"
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobile:desoff="自动更已关闭"
+        mobile:deson="自动更已开启"
+        mobile:destitle="自动更新设置">
+
+    </com.panhongyuan.mobilesafe.view.SettingItemView>
+
+    <com.panhongyuan.mobilesafe.view.SettingItemView xmlns:mobile="http://schemas.android.com/apk/res/com.panhongyuan.mobilesafe"
+        android:id="@+id/siv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobile:desoff="电话归属地显示已关闭"
+        mobile:deson="电话归属地显示已开启"
+        mobile:destitle="电话归属地显示设置">
+
+    </com.panhongyuan.mobilesafe.view.SettingItemView>
+
+    <com.panhongyuan.mobilesafe.view.SettingClickView
+        android:id="@+id/scv_toast_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.panhongyuan.mobilesafe.view.SettingClickView>
+
+    <com.panhongyuan.mobilesafe.view.SettingClickView
+        android:id="@+id/scv_toast_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.panhongyuan.mobilesafe.view.SettingClickView>
+
+    <com.panhongyuan.mobilesafe.view.SettingItemView xmlns:mobile="http://schemas.android.com/apk/res/com.panhongyuan.mobilesafe"
+        android:id="@+id/siv_blacknumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobile:desoff="黑名单拦截已关闭"
+        mobile:deson="黑名单拦截已开启"
+        mobile:destitle="黑名单拦截设置">
+
+    </com.panhongyuan.mobilesafe.view.SettingItemView>
+
+    <com.panhongyuan.mobilesafe.view.SettingItemView xmlns:mobile="http://schemas.android.com/apk/res/com.panhongyuan.mobilesafe"
+        android:id="@+id/siv_app_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        mobile:desoff="程序锁已关闭"
+        mobile:deson="程序锁已开启"
+        mobile:destitle="程序锁设置">
+
+    </com.panhongyuan.mobilesafe.view.SettingItemView>
+
+</LinearLayout>

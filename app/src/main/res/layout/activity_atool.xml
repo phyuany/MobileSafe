@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="高级工具" />
+
+    <TextView
+        android:id="@+id/tv_query_phone_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_atool_item_bg"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="归属地查询"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_sms_backup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_atool_item_bg"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="短信备份"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/pb_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_common_number_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_atool_item_bg"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="常用号码查询"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_app_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_atool_item_bg"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="程序锁"
+        android:textSize="18sp" />
+
+</LinearLayout>

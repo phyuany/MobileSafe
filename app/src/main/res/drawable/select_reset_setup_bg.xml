@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--自己通过xml文件绘制的背景图-->
+    <item android:drawable="@drawable/reset_setup_bg_press" android:state_pressed="true" />
+    <!--使用Android的透明色-->
+    <item android:drawable="@android:color/transparent" />
+</selector>

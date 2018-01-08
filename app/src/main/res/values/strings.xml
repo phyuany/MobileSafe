@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">手机卫士</string>
+    <string name="sample_device_admin">极客管家设备管理器</string>
+    <string name="sample_device_admin_description">激活极客管家设备管理器后，即可实现手机防盗中一键锁屏、一键清楚数据功能</string>
+</resources>

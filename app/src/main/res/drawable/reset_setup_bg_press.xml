@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--shape型状-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--gradient梯度（变化率）-->
+    <gradient
+        android:angle="45"
+        android:endColor="@color/colorAccent"
+        android:startColor="#4fcdde" />
+    <!--padding内间距-->
+    <padding
+        android:bottom="7dp"
+        android:left="7dp"
+        android:right="7dp"
+        android:top="7dp" />
+    <!--corners拐角-->
+    <corners android:radius="8dp" />
+</shape>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义属性的定义-->
+    <declare-styleable name="SettingItemView">
+        <attr name="destitle" format="string" />
+        <attr name="desoff" format="string" />
+        <attr name="deson" format="string" />
+    </declare-styleable>
+</resources>
