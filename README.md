@@ -3,6 +3,8 @@ Android手机卫士，代码阅读对象：Android 开发者，项目代码中�
 
 项目在编写时测试手机为Android 4.4.2，可能有的API由于Android版本的升级，如Android 6以后严格限制一些权限的使用，所以部分功能已经不能在高版本Android上顺利实现，如程序锁。此项目是Android基础综合的一个项目，自定义控件、服务、网络等基本用到，所以学了一些基础控件之后的同学可以尝试阅读此代码，或许会对你的Android基础的巩固有促进作用
 
+<a href="https://github.com/kotlinup/MobileSafe/raw/master/app/release/app-release.apk">下载apk包</a>
+
 ## 免责声明
 项目由“极客开发者”（jkdev.cn）编写，源代码开放并共享到互联网，模拟手机卫士，如有雷同，纯属巧合，最终解释权属于“极客开发者”。
 
