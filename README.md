@@ -7,14 +7,9 @@ Android手机卫士，代码阅读对象：Android 开发者，项目代码中�
 项目由“极客开发者”（jkdev.cn）编写，源代码开放并共享到互联网，模拟手机卫士，如有雷同，纯属巧合，最终解释权属于“极客开发者”。
 
 ## APP部分截图：
-![极客开发者up](img/01.png) 
-![极客开发者up](img/02.png) 
-![极客开发者up](img/03.png) 
-![极客开发者up](img/04.png) 
-![极客开发者up](img/05.png) 
-![极客开发者up](img/06.png) 
-![极客开发者up](img/07.png) 
-![极客开发者up](img/08.png) 
+<img width="auto" height="150" src="img/05.png"/>
+<img width="auto" height="150" src="img/05.png"/>
+<img width="auto" height="150" src="img/05.png"/>
 ## 1. 介绍
 本项目由极客开发者编写，并开源共享源代码，本项目综合Android 基础知识，代码已经几乎添加注释
 
