@@ -8,9 +8,14 @@ Android手机卫士，代码阅读对象：Android 开发者，项目代码中�
 
 ## APP部分截图：
 <p>
-<img width="150" height="auto" src="img/05.png" style="display='inline-block'"/>
-<img width="150" height="auto" src="img/05.png" style="display='inline-block'"/>
-<img width="150" height="auto" src="img/05.png" style="display='inline-block'"/>
+<img width="250" height="auto" src="img/01.png" style="display='inline-block'"/>
+<img width="250" height="auto" src="img/02.png" style="display='inline-block'"/>
+<img width="250" height="auto" src="img/03.png" style="display='inline-block'"/>
+<img width="250" height="auto" src="img/04.png" style="display='inline-block'"/>
+<img width="250" height="auto" src="img/05.png" style="display='inline-block'"/>
+<img width="250" height="auto" src="img/06.png" style="display='inline-block'"/>
+<img width="250" height="auto" src="img/07.png" style="display='inline-block'"/>
+<img width="250" height="auto" src="img/08.png" style="display='inline-block'"/>
 </p>
 ## 1. 介绍
 本项目由极客开发者编写，并开源共享源代码，本项目综合Android 基础知识，代码已经几乎添加注释
