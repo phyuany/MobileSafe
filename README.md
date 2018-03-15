@@ -6,7 +6,7 @@ Android手机卫士，代码阅读对象：Android 开发者，项目代码中�
 <a href="https://github.com/kotlinup/MobileSafe/raw/master/app/release/app-release.apk">下载apk包</a>
 
 ## 免责声明
-项目由“极客开发者”（jkdev.cn）编写，源代码开放并共享到互联网，模拟手机卫士，如有雷同，纯属巧合，最终解释权属于“极客开发者”。
+项目由“极客开发者”（jkdev.cn）编写，源代码开放并共享到互联网，模拟手机卫士，感谢黑马程序猿<a href="http://www.itheima.com/">http://www.itheima.com/</a>的在线视频教程，最终解释权属于“极客开发者”。
 
 ## APP部分截图：
 <p>
