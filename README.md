@@ -44,7 +44,7 @@ targetSdkVersion 26<br>
 1.使用git管理工具下载
 
 ```markdown
-git clone https://github.com/kotlinup/MobileSafe.git
+git clone https://github.com/kotlindev/MobileSafe.git
 ```
 2.直接下载：<br>
 在github上找到下载按钮直接下载zip包即可<br>
