@@ -63,4 +63,4 @@ git clone https://github.com/kotlindev/MobileSafe.git
 ## 4. 联系开发者：
 (1)邮箱：i@panhongyuan.com<br>
 (2)微信订阅：极客开发者up<br>
-![极客开发者up](https://jkdev.cn/img/wechat.jpg)
+![极客开发者up](https://blog.jkdev.cn/usr/uploads/2017/11/612527812.jpg)
